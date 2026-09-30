@@ -1,1 +1,11 @@
+# Excludes everything by default and explicitly mention files to keep
+# Good for security: a new .env or credentials file can't slip into the build context or image by accident
+
 *
+
+!requirements.txt
+!datasets
+
+!input_manager.py
+!logic_manager.py
+!main.py
