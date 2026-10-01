@@ -1,4 +1,4 @@
-# Excludes everything by default and explicitly mention files to keep
+# Excludes everything (*) by default and explicitly mention files to keep
 # Good for security: a new .env or credentials file can't slip into the build context or image by accident
 
 *
