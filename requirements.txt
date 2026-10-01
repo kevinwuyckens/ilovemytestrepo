@@ -1,2 +1,4 @@
 pandas==3.0.6
 phonenumbers==9.0.40
+google-genai==2.24.0
+python-dotenv==1.2.3
